@@ -5,7 +5,12 @@ public class BankAccount{
  private String password;
  
 public static void main(String[] args){
+    
     BankAccount ba = new BankAccount(60001, 500000, "hello");
+    
+    System.out.println(ba.getAccountID());
+    System.out.println(ba.getBalance());
+    
     }
  
  public BankAccount(int IDnum, double money, String pass){
